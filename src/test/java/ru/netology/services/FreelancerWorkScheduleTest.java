@@ -15,6 +15,7 @@ public class FreelancerWorkScheduleTest {
         FreelancerWorkSchedule workSchedule = new FreelancerWorkSchedule();
         long res = workSchedule.calculate(threshold, income, expense);
         int expected = 3;
+
         Assertions.assertEquals(expected, res);
     }
 
